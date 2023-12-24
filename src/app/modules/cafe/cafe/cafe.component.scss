@@ -1,3 +1,16 @@
 :host {
   display: block;
 }
+
+.cover-image{
+  width: 100%;
+  height: 200px;
+  background-color: rgba(73, 156, 129, 0.384);
+  border-radius: 15px;
+  color: aliceblue;
+  display: grid;
+}
+
+.cover-title{
+  margin-top: 74px;
+}
