@@ -1,0 +1,14 @@
+<div class="menu-section-container">
+    <div class="row">
+        <div class="category-title">{{getLocalizationVal(menuItemList.localizations)}}</div>
+    </div>
+    <div class="row mt-3">
+        <ng-container *ngFor="let menuItem of menuItemList.items">
+            <div class="col-lg-4 col-md-6 col-sm-12 menu-item-container">
+                <div class="my-2">
+                    <app-menu-item [itemData]="menuItem"></app-menu-item>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>

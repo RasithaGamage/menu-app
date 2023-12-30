@@ -7,13 +7,9 @@ import { HomeModule } from './modules/home/home.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarModule } from './shared/navbar/navbar.module';
 import { HttpClientModule } from '@angular/common/http';
+import { CafeModule } from './modules/cafe/cafe.module';
 
 @NgModule({
-  schemas:
-  [
-    CUSTOM_ELEMENTS_SCHEMA
-  ]
-,
   declarations: [
     AppComponent
   ],
@@ -22,9 +18,10 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     NgbModule,
     HomeModule,
+    CafeModule,
     BrowserAnimationsModule,
     NavbarModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

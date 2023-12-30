@@ -1,7 +1,19 @@
 :host {
-  display: block;
 }
 
 .menu-item{
-  background-color: burlywood;
+  background-color: rgb(245, 245, 245);
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.item-image{
+  
+}
+
+
+.item-image img{
+  max-width: 210px;
+  max-height: 210px;
 }
