@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, ViewChildren, type OnInit, QueryList, ElementRef, Renderer2, AfterViewInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, type OnInit, ElementRef, AfterViewInit} from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { GlobalService } from '../../../core/services/global.service';
 import { CafeService } from '../services/cafe.service';
@@ -6,7 +6,6 @@ import { ApiResult } from '../../../core/models/http/http.model';
 import { mergeMap, tap } from 'rxjs/operators'
 import { Category, Menu } from '../../../core/models/cafe/menu.model';
 import { Cafe } from '../../../core/models/cafe/cafe.model';
-import { MenuSectionComponent } from '../menu-section/menu-section.component';
 
 @Component({
   selector: 'app-cafe',
@@ -15,18 +14,15 @@ import { MenuSectionComponent } from '../menu-section/menu-section.component';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CafeComponent implements OnInit, AfterViewInit {
-
   elements: any;
   menuItemList: Category[] = [];
   cafeData: Cafe;
   menuData: Menu;
-  currentSection = 'section1';
 
   constructor(
     private routes: ActivatedRoute,
     public gs: GlobalService,
     private cafeService: CafeService,
-    // private renderer: Renderer2, 
     private elem: ElementRef
   ) {}
 
@@ -58,12 +54,9 @@ export class CafeComponent implements OnInit, AfterViewInit {
     });
   }
 
-  onSectionChange(sectionId: string) {
-    this.currentSection = sectionId;
-  }
-
   scrollTo(event: any) {
-    let idVal: string = this.menuItemList.find(i=>this.getLocalizationVal(i.localizations) === event.tab.textLabel)?.id ?? '';
+    const selectedLabel =  event.target.childNodes[0].textContent ?? event.target.querySelector('.mdc-tab__text-label').childNodes[0].textContent;
+    let idVal: string = this.menuItemList.find(i=>this.getLocalizationVal(i.localizations) === selectedLabel)?.id ?? '';
     let elementMatch: HTMLElement| undefined;
     for (let index = 0; index < this.elements.length; index++) {
       if (this.elements[index].id == idVal) {
@@ -75,6 +68,24 @@ export class CafeComponent implements OnInit, AfterViewInit {
     elementMatch.scrollIntoView()
    }
 
+  }
+
+  getScrollSpyThreshold(): number {
+    if (window.innerWidth>1550) {
+      return 1;
+    } 
+    if (window.innerWidth>500) {
+      return 0.5;
+    } 
+    else if (window.innerWidth>400) {
+      return 0.1;
+    } else {
+      return 0.1;
+    }
+  }
+
+  getSelectedTabIndex(activeTabId: string): number {
+    return this.menuItemList.findIndex(i=> i.id === activeTabId);
   }
 
   getLocalizationVal(obj: any): string{

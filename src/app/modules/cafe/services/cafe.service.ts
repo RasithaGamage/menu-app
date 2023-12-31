@@ -567,6 +567,322 @@ export class CafeService {
                   },
                 ],
               },
+              {
+                id: 'MV#bJ4moaclUUWZN2iFb87sCg==#TrjIx0NqOE61vvmZllw1UA==#C#RPnQqyKS2Eyln4lQudFAcQ==#I#9ri/C4f5dUukSVxMAavlIw==#',
+                isEnabled: true,
+                imageUrl: '/assets/images/product_1.webp',
+                basePrice: '15.95',
+                localizations: {
+                  'H4UElElrwk6kDAKY1NaAWw==': {
+                    name: 'Cappuccino',
+                    description:
+                      'This spicy chicken burger will light up your life... and your ring',
+                  },
+                },
+                optionGroups: [
+                  {
+                    isEnabled: true,
+                    imageUrl: '/something/something/sauces.png',
+                    minRequiredSelections: 0,
+                    maxAllowedSeelections: 2,
+                    localizations: {
+                      'H4UElElrwk6kDAKY1NaAWw==': {
+                        name: 'Additional Sauces',
+                        description: 'Bam it up a notch with extra sauces',
+                      },
+                    },
+                    items: [
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Mayo',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Sweet Chili',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Hot Chili',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Garlic Aioli',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Tzatziki',
+                            description: '',
+                          },
+                        },
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'MV#bJ4moaclUUWZN2iFb87sCg==#TrjIx0NqOE61vvmZllw1UA==#C#RPnQqyKS2Eyln4lQudFAcQ==#I#9ri/C4f5dUukSVxMAavlIw==#',
+                isEnabled: true,
+                imageUrl: '/assets/images/product_1.webp',
+                basePrice: '15.95',
+                localizations: {
+                  'H4UElElrwk6kDAKY1NaAWw==': {
+                    name: 'Cappuccino',
+                    description:
+                      'This spicy chicken burger will light up your life... and your ring',
+                  },
+                },
+                optionGroups: [
+                  {
+                    isEnabled: true,
+                    imageUrl: '/something/something/sauces.png',
+                    minRequiredSelections: 0,
+                    maxAllowedSeelections: 2,
+                    localizations: {
+                      'H4UElElrwk6kDAKY1NaAWw==': {
+                        name: 'Additional Sauces',
+                        description: 'Bam it up a notch with extra sauces',
+                      },
+                    },
+                    items: [
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Mayo',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Sweet Chili',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Hot Chili',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Garlic Aioli',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Tzatziki',
+                            description: '',
+                          },
+                        },
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'MV#bJ4moaclUUWZN2iFb87sCg==#TrjIx0NqOE61vvmZllw1UA==#C#RPnQqyKS2Eyln4lQudFAcQ==#I#9ri/C4f5dUukSVxMAavlIw==#',
+                isEnabled: true,
+                imageUrl: '/assets/images/product_1.webp',
+                basePrice: '15.95',
+                localizations: {
+                  'H4UElElrwk6kDAKY1NaAWw==': {
+                    name: 'Cappuccino',
+                    description:
+                      'This spicy chicken burger will light up your life... and your ring',
+                  },
+                },
+                optionGroups: [
+                  {
+                    isEnabled: true,
+                    imageUrl: '/something/something/sauces.png',
+                    minRequiredSelections: 0,
+                    maxAllowedSeelections: 2,
+                    localizations: {
+                      'H4UElElrwk6kDAKY1NaAWw==': {
+                        name: 'Additional Sauces',
+                        description: 'Bam it up a notch with extra sauces',
+                      },
+                    },
+                    items: [
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Mayo',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Sweet Chili',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Hot Chili',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Garlic Aioli',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Tzatziki',
+                            description: '',
+                          },
+                        },
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: 'MV#bJ4moaclUUWZN2iFb87sCg==#TrjIx0NqOE61vvmZllw1UA==#C#RPnQqyKS2Eyln4lQudFAcQ==#I#9ri/C4f5dUukSVxMAavlIw==#',
+                isEnabled: true,
+                imageUrl: '/assets/images/product_1.webp',
+                basePrice: '15.95',
+                localizations: {
+                  'H4UElElrwk6kDAKY1NaAWw==': {
+                    name: 'Cappuccino',
+                    description:
+                      'This spicy chicken burger will light up your life... and your ring',
+                  },
+                },
+                optionGroups: [
+                  {
+                    isEnabled: true,
+                    imageUrl: '/something/something/sauces.png',
+                    minRequiredSelections: 0,
+                    maxAllowedSeelections: 2,
+                    localizations: {
+                      'H4UElElrwk6kDAKY1NaAWw==': {
+                        name: 'Additional Sauces',
+                        description: 'Bam it up a notch with extra sauces',
+                      },
+                    },
+                    items: [
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Mayo',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Sweet Chili',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Hot Chili',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Garlic Aioli',
+                            description: '',
+                          },
+                        },
+                      },
+                      {
+                        isEnabled: true,
+                        price: '2.00',
+                        localizations: {
+                          'H4UElElrwk6kDAKY1NaAWw==': {
+                            name: 'Tzatziki',
+                            description: '',
+                          },
+                        },
+                      },
+                    ],
+                  },
+                ],
+              },
             ],
           },
         ],

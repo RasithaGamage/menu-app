@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { CafeRoutingModule } from './cafe-routing.module';
 import {MatTabsModule} from '@angular/material/tabs';
 import { MenuSectionComponent } from './menu-section/menu-section.component';
+import { NgbNavModule, NgbScrollSpyModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,9 @@ import { MenuSectionComponent } from './menu-section/menu-section.component';
     CommonModule,
     BrowserModule,
     CafeRoutingModule,
-    MatTabsModule
+    MatTabsModule,
+    NgbNavModule,
+    NgbScrollSpyModule
   ],
   exports: [
     CafeComponent

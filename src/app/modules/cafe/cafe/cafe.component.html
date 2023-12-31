@@ -1,9 +1,9 @@
-<div class="container p-3">
+<div class="cafe-container p-3" ngbScrollSpy [threshold]="getScrollSpyThreshold()" #spy="ngbScrollSpy">
     <div class="row">
         <div class="col-md-12">
             <div class="cover-image">
                 <h1 class="cover-title text-center">{{gs.cafeName()}}</h1>
-            </div>
+            </div> 
         </div>
     </div>
     <div class="row">
@@ -11,14 +11,14 @@
             <div class="menu-container">
                 <div class="row item-group">
                     <div class="item-group-nav-bar">
-                        <mat-tab-group class="position-absolute" (selectedTabChange)="scrollTo($event)">
-                            <mat-tab *ngFor="let menuItem of menuItemList" [label]="getLocalizationVal(menuItem.localizations)" ></mat-tab>
+                        <mat-tab-group  class="position-absolute" [selectedIndex]="getSelectedTabIndex(spy.active)" (click)="scrollTo($event)" >
+                            <mat-tab *ngFor="let menuItem of menuItemList" [label]="getLocalizationVal(menuItem.localizations)"></mat-tab>
                         </mat-tab-group>
                     </div>
                 </div>
                 <div class="row m-1">
                     <ng-container *ngFor="let menuItem of menuItemList">
-                        <app-menu-section class="app-menu-section" [id]="menuItem.id"  [menuItemList]="menuItem"></app-menu-section>
+                        <app-menu-section  [ngbScrollSpyFragment]="menuItem.id" class="app-menu-section" [id]="menuItem.id"  [menuItemList]="menuItem"></app-menu-section>
                     </ng-container>
                 </div>
             </div>
